@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 24, 2025 at 09:59 AM
+-- Generation Time: May 24, 2025 at 11:05 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -43,10 +43,10 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `customer_id`, `guest_name`, `guest_phone`, `guest_address`, `total`, `created_at`, `updated_at`) VALUES
-(9, 7, NULL, NULL, NULL, 15000.00, '2025-05-24 07:20:22', '2025-05-24 07:20:22'),
-(10, 7, NULL, NULL, NULL, 150000.00, '2025-05-24 07:33:15', '2025-05-24 07:33:15'),
-(11, 7, NULL, NULL, NULL, 105000.00, '2025-05-24 07:39:17', '2025-05-24 07:39:17'),
-(12, 7, NULL, NULL, NULL, 362000.00, '2025-05-24 07:59:12', '2025-05-24 07:59:12');
+(9, 7, NULL, NULL, NULL, 15000.00, '2025-05-23 07:20:22', '2025-05-23 07:20:22'),
+(10, 7, NULL, NULL, NULL, 150000.00, '2025-05-23 07:33:15', '2025-05-23 07:33:15'),
+(11, 7, NULL, NULL, NULL, 105000.00, '2025-05-23 07:39:16', '2025-05-23 07:39:16'),
+(12, 7, NULL, NULL, NULL, 362000.00, '2025-05-23 07:59:12', '2025-05-23 07:59:12');
 
 -- --------------------------------------------------------
 
@@ -100,10 +100,10 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `category_id`, `name`, `description`, `price`, `slug`, `image_path`, `created_at`, `updated_at`) VALUES
-(9, 1, 'Washing washing', 'Easy Laundry', 15000.00, 'washing-washing', 'uploads/9786d76e6d7435d7041c78e7d02bbf53.jpg', '2025-05-24 06:29:09', '2025-05-24 00:29:09'),
-(10, 1, 'Convection Gas Range', 'Stainless Steel Smart Wi-Fi Enabled Fan Convection', 90000.00, 'convection-gas-range', 'uploads/gas.jpg', '2025-05-24 06:56:39', '2025-05-24 00:56:39'),
-(11, 7, 'Walking Dead', 'Zombie Outbreak Survival', 1000.00, 'walking-dead', 'uploads/twd.jpg', '2025-05-24 07:48:16', '2025-05-24 01:48:16'),
-(12, 7, 'It Ends With Us', 'A powerful story about navigates love, heartbreak,', 1000.00, 'it-ends-with-us', 'uploads/2b6760353435b8ef1a3437385a381039.jpg', '2025-05-24 07:58:20', '2025-05-24 01:58:20');
+(9, 1, 'Washing washing', 'Easy Laundry', 15000.00, 'washing-washing', 'uploads/9786d76e6d7435d7041c78e7d02bbf53.jpg', '2025-05-23 06:29:09', '2025-05-23 00:29:09'),
+(10, 1, 'Convection Gas Range', 'Stainless Steel Smart Wi-Fi Enabled Fan Convection', 90000.00, 'convection-gas-range', 'uploads/gas.jpg', '2025-05-23 06:56:39', '2025-05-23 00:56:39'),
+(11, 7, 'Walking Dead', 'Zombie Outbreak Survival', 1000.00, 'walking-dead', 'uploads/twd.jpg', '2025-05-23 07:48:16', '2025-05-23 01:48:16'),
+(12, 7, 'It Ends With Us', 'A powerful story about navigates love, heartbreak,', 1000.00, 'it-ends-with-us', 'uploads/2b6760353435b8ef1a3437385a381039.jpg', '2025-05-23 07:58:20', '2025-05-24 09:02:21');
 
 -- --------------------------------------------------------
 
@@ -156,8 +156,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `address`, `phone`, `birthdate`, `created_at`, `updated_at`) VALUES
-(6, 'Mizaki', 'mizaki@gmail.com', '$2y$10$FUWm0B.3jtwNV9zg4.qrFu6DL75OWfaseSjBEm0lrhep/348jXVaK', NULL, NULL, NULL, '2025-05-24 01:16:57', '2025-05-24 01:16:57'),
-(7, 'Keycee', 'bolambotkeycee@gmail.com', '$2y$10$WvfK8MoKkO0e8tCExRoG6OF3MyXKN61GZLzUFB8.yuS.tdc0CWCGG', 'Costa, Plaza Bacay', '09493598037', '2004-12-17', '2025-05-24 06:01:33', '2025-05-24 06:01:33');
+(6, 'Mizaki', 'mizaki@gmail.com', '$2y$10$FUWm0B.3jtwNV9zg4.qrFu6DL75OWfaseSjBEm0lrhep/348jXVaK', NULL, NULL, NULL, '2025-05-22 01:16:57', '2025-05-22 01:16:57'),
+(7, 'Keycee', 'bolambotkeycee@gmail.com', '$2y$10$WvfK8MoKkO0e8tCExRoG6OF3MyXKN61GZLzUFB8.yuS.tdc0CWCGG', 'Costa, Plaza Bacay', '09493598037', '2004-12-17', '2025-05-22 06:01:33', '2025-05-22 06:01:33');
 
 --
 -- Indexes for dumped tables
